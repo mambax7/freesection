@@ -1,0 +1,26 @@
+/**
+* $Id: install.txt,v 1.4 2006/09/12 15:58:56 malanciault Exp $
+* Module: FreeSection
+* Author: The SmartFactory <www.smartfactory.ca>
+* Licence: GNU
+*/
+
+
+Supported XOOPS Version
+=======================
+
+Please note that the FreeSection 1.0.x series is not meant to be installed on XOOPS 2.2.x. It has to be installed on XOOPS 2.0.x series.
+
+For more information : http://smartfactory.ca/modules/smartfaq/faq.php?faqid=87
+
+
+How to install FreeSection
+===========================
+
+FreeSection is installed as a regular XOOPS module, which means you should copy the complete /freesection folder into the /modules directory of your website. Then, log in to your site as administrator, go to System Admin > Modules, look for the FreeSection icon in the list of uninstalled modules and click in the install icon. Follow the directions in the screen and you'll be ready to go.
+
+
+
+.:: The SmartFactory ::.
+.:: Open Source : smartfactory.ca ::.
+.:: Professionnal : inboxinternational.com ::.

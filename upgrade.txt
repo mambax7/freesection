@@ -1,0 +1,35 @@
+/**
+* $Id: upgrade.txt,v 1.8 2006/10/19 10:58:17 malanciault Exp $
+* Module: SmartSection
+* Author: The SmartFactory <www.smartfactory.ca>
+* Licence: GNU
+*/
+
+How to uprade from SmartSection 2.1 +
+=====================================
+
+In order to upgrade the module, you will need to :
+
+- Upload the complete /smartsection folder into the /modules directory of your website
+
+- Then, log in to your site as administrator, go to System Admin > Modules, look for the SmartSection icon in the list of installed modules and click in the update icon
+
+How to uprade from a SmartSection version older than 2.1 ?
+==========================================================
+
+- You first need to upgrade to SmartSection 2.1.
+
+- Download the package here : http://smartfactory.ca/modules/wfdownloads/singlefile.php?cid=2&lid=65
+
+- Follow the upgrade instructions
+
+- Then you can upgrade to the newest version.
+
+That's it !
+
+Enjoy !
+
+
+.:: The SmartFactory ::.
+.:: Open Source : smartfactory.ca ::.
+.:: Professionnal : inboxinternational.com ::.

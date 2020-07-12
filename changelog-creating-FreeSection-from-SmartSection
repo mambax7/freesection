@@ -1,0 +1,13 @@
+CHANGELOG FreeSection
+
+PREAMBLE 2008-06-18
+FreeSection is a derivate of SmartSection 2.13. SmartSection was originally made by SmartFactory (www.smartfactory.ca) and published under the GNU licence. Although the creation of a derivate is permitted by the GNU General Public License (GPL), the creation of FreeSection is not necessarily endorsed or supported by the SmartFactory.
+
+FreeSection is not a fork and at this moment, the creator of this derivate has no plans to make it a fork. It is simply great to have a clone readily available that has no hidden text links. 
+
+CHANGES:
+- cloned SmartSection according to this howto: http://www.howtodude.net/howto/view.article.php/167
+- removed module name from title according to this howto: http://www.howtodude.net/howto/view.article.php/197
+- removed hidden text links according to this howto: http://www.howtodude.net/howto/view.article.php/167
+- updated xoopsinfo.php
+- updated changelog.txt

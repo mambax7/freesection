@@ -1,0 +1,4 @@
+RewriteEngine   On
+RewriteRule     ^freesection\.([a-z]+)\.([0-9.]+)/  modules/freesection/seo.php?seoOp=$1&seoArg=$2
+
+# RewriteRule     ^ss\.([a-z]+)\.([0-9.]+)/  modules/freesection/seo.php?seoOp=$1&seoArg=$2

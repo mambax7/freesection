@@ -1,0 +1,59 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+
+<title><{$printtitle}></title>
+
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_url}>/modules/freesection/module.css" />
+</head>
+
+<body>
+<script for=window event=onload language="javascript">
+    window.print();
+</script>
+
+
+
+<body style="font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 12px;" bgcolor="#ffffff" text="#000000">
+
+<div style="width: 650px; padding: 20px;">
+  <div style="text-align: left; display: block; margin: 0 0 6px 0;">
+    <div style="text-align: center;"><img src="<{$printlogourl}>" border="0" alt="" /></div>
+    <div style="text-align: right; margin-top: 10px; border: 1px solid; padding: 2px;"><{$printheader}></div>
+    <div style="padding-top: 5px; font-size: 14px; font-weight: bold"><{$item.title}></div>
+    <div style="padding-top: 2px; "><{$lang_category}> : <{$item.categoryname}></div>
+     <{if $display_whowhen_link}>
+        <div style="padding-top: 2px; "><{$lang_author_date}> </div>
+     <{/if}>
+  </div>
+  
+  <{if $item.display_summary}>
+  	<div style="padding-top: 8px; text-align: justify"><{$item.summary}></div>
+  <{/if}>
+  
+  <div style="padding-top: 8px; text-align: justify"><{$item.body}></div>
+  <!-- Spécifique à Condolegal...-->
+  <{if $itemfooter}>
+  	<!--<div style="text-align: left; font-weight: bold; padding-top: 10px;"><{$itemfooter}></div>-->
+  	<div style="text-align: center; font-weight: bold; border: 1px solid; padding: 2px; margin-top: 10px;"><{$itemfooter}></div>
+  <{/if}>
+  <!-- Spécifique à Condolegal...-->
+  
+  <{if $indexfooter}>
+  	<div style="text-align: center; margin-top: 10px; border: 1px solid; padding: 2px;"><{$indexfooter}></div>
+  <{/if}>
+
+</div>
+
+
+</body>
+
+</html>
